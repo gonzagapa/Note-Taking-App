@@ -1,0 +1,17 @@
+{
+  "name": "note-taking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buid:backend":"npm install --prefix backend",
+    "build:frontend":"npm install --prefix frontend",
+    "build:app":"npm run buid:backend && npm run build:frontend",
+    "build":"npm run build:app && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
